@@ -89,7 +89,7 @@ if __name__ == "__main__":
 
     #### Divide the training set and the test set
     train_raw, test = split_func(final_df)
-    train = balance(train_raw, more_label=0, less_label=1)
+    train = balance(train_raw, more_label=1, less_label=0)
     print('Finish divide.')
 
 
@@ -131,4 +131,4 @@ if __name__ == "__main__":
     print('\nTest less accuracy:', test_less_acc)
 
     ## save model
-    model.save('C:/Users/pc/OneDrive/git_repo/Auto_IMMsight/Models/CD3_classfy.h5')
+    model.save('C:/Users/pc/OneDrive/git_repo/Auto_IMMsight/Models/CD4_classfy.h5')
