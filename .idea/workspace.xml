@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf844ef9-96e5-4fa9-abf3-6abb3f7c5e6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/marker_nets/model_CD8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cf844ef9-96e5-4fa9-abf3-6abb3f7c5e6c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/marker_nets/model_CD8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="134" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="235">
+              <caret line="118" lean-forward="true" selection-end-line="135" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/marker_nets/model_CD56.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
             </state>
           </provider>
         </entry>
@@ -71,6 +77,7 @@
         <option value="$PROJECT_DIR$/marker_nets/model_CD3.py" />
         <option value="$PROJECT_DIR$/marker_nets/model_CD4.py" />
         <option value="$PROJECT_DIR$/marker_nets/model_CD8.py" />
+        <option value="$PROJECT_DIR$/marker_nets/model_CD56.py" />
       </list>
     </option>
   </component>
@@ -163,21 +170,20 @@
       <option name="presentableId" value="Default" />
       <updated>1577775354276</updated>
       <workItem from="1577775355489" duration="4953000" />
-      <workItem from="1578029828183" duration="4932000" />
+      <workItem from="1578029828183" duration="7000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9885000" />
+    <option name="totallyTimeSpent" value="11953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.22453333" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22453333" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="Python Console" order="3" weight="0.51946664" />
+      <window_info id="Python Console" order="3" weight="0.4944" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" />
@@ -232,8 +238,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/marker_nets/model_CD8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="235">
+          <caret line="118" lean-forward="true" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marker_nets/model_CD56.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
     </entry>
