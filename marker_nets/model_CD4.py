@@ -1,7 +1,7 @@
 # Title     : TODO
 # Objective : TODO
 # Created by: Chen Da
-# Created on: 2019/12/31
+# Created on: 2020/1/3
 
 import pandas as pd
 import numpy as np
@@ -66,8 +66,8 @@ if __name__ == "__main__":
     ######################################
     #### Data import
     data_path = 'E:/cd/1_Auto_Gate_IMMsight/model_data/'
-    file_0 = 'CD3+'
-    file_1 = 'CD3-'
+    file_0 = 'CD4+'
+    file_1 = 'CD4-'
     markers = ('CD45', 'CD3', 'CD56', 'gdTCR', 'CD196_CCR6',
                'CD14 ', 'IgD', 'CD123_IL-3R', 'CD85j', 'CD19', 'CD25_IL-2R',
                'CD274_PD-L1', 'CD278_ICOS', 'CD39', 'CD27', 'CD24', 'CD45RA', 'CD86',
@@ -119,7 +119,7 @@ if __name__ == "__main__":
 
     model.fit(train_X,
               train_labels,
-              epochs=10,
+              epochs=100,
               # batch_size=16384,
               # validation_data=(test_X, test_labels),
               # verbose=2
