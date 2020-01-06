@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf844ef9-96e5-4fa9-abf3-6abb3f7c5e6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/marker_nets/model_CD19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marker_nets/model_CD39.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,10 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/marker_nets/model_CD19.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
+            <state relative-caret-position="312">
+              <caret line="121" column="24" selection-end-line="136" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/marker_nets/model_CD39.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
               <caret line="134" selection-start-line="134" selection-end-line="134" />
             </state>
           </provider>
@@ -69,6 +78,7 @@
         <option value="$PROJECT_DIR$/marker_nets/model_Igd.py" />
         <option value="$PROJECT_DIR$/marker_nets/model_CD123.py" />
         <option value="$PROJECT_DIR$/marker_nets/model_CD19.py" />
+        <option value="$PROJECT_DIR$/marker_nets/model_CD39.py" />
       </list>
     </option>
   </component>
@@ -162,12 +172,12 @@
       <updated>1577775354276</updated>
       <workItem from="1577775355489" duration="4953000" />
       <workItem from="1578029828183" duration="9094000" />
-      <workItem from="1578272746347" duration="5239000" />
+      <workItem from="1578272746347" duration="6896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19286000" />
+    <option name="totallyTimeSpent" value="20943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -280,7 +290,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/marker_nets/model_CD19.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
+        <state relative-caret-position="312">
+          <caret line="121" column="24" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marker_nets/model_CD39.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
           <caret line="134" selection-start-line="134" selection-end-line="134" />
         </state>
       </provider>
