@@ -67,8 +67,8 @@ if __name__ == "__main__":
     ######################################
     #### Data import
     data_path = 'E:/cd/1_Auto_Gate_IMMsight/model_data/'
-    file_0 = 'CD56+'
-    file_1 = 'CD56-'
+    file_0 = 'gdTCR+'
+    file_1 = 'gdTCR-'
     markers = ('CD45', 'CD3', 'CD56', 'gdTCR', 'CD196_CCR6',
                'CD14 ', 'IgD', 'CD123_IL-3R', 'CD85j', 'CD19', 'CD25_IL-2R',
                'CD274_PD-L1', 'CD278_ICOS', 'CD39', 'CD27', 'CD24', 'CD45RA', 'CD86',
@@ -120,7 +120,7 @@ if __name__ == "__main__":
 
     model.fit(train_X,
               train_labels,
-              epochs=100,
+              epochs=10,
               # batch_size=16384,
               # validation_data=(test_X, test_labels),
               # verbose=2
@@ -132,4 +132,4 @@ if __name__ == "__main__":
     print('\nTest less accuracy:', test_less_acc)
 
     ## save model
-    model.save('C:/Users/pc/OneDrive/git_repo/Auto_IMMsight/Models/CD56_classfy.h5')
+    model.save('C:/Users/pc/OneDrive/git_repo/Auto_IMMsight/Models/gdTCR_classfy.h5')
